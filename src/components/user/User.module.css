@@ -6,3 +6,6 @@
 .stats{
     display: flex;
 }
+.label{
+  text-decoration: none;
+}
