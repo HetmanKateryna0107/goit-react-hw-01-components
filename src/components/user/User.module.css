@@ -1,11 +1,11 @@
 .profile {
   background-color: aqua;  
   border-radius: 2px;
-
+  text-decoration: none;
 }
 .stats{
     display: flex;
 }
 .label{
-  text-decoration: none;
+  
 }
