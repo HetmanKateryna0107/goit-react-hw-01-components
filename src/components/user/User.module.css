@@ -1,0 +1,8 @@
+.profile {
+  background-color: aqua;  
+  border-radius: 2px;
+
+}
+.stats{
+    display: flex;
+}
