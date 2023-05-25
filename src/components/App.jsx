@@ -1,8 +1,8 @@
-import user from './user/user.json';
+import user from './card/user.json';
 import statistics from './statistics/data.json'
 import friendList from './friendList/friends.json'
 import transactionHistory from './transactionHistory/transactions.json'
-import {User} from './user/User'
+import {Profile} from './card/User'
 import {Statistics} from './statistics/Statistics'
 import {FriendList} from './friendList/FriendList'
 import {TransactionHistory} from './transactionHistory/TransactionHistory'
@@ -20,7 +20,7 @@ export const App = () => {
         flexDirection:'column'
       }}
     >
-    <User
+    <Profile
   username={user.username}
   tag={user.tag}
   location={user.location}
