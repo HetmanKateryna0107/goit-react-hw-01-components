@@ -1,8 +1,29 @@
 .profile {
-  background-color: aqua;  
-  border-radius: 2px;
-  text-decoration: none;
+  width: 100vw;
+  background-color: rgb(226, 224, 225);
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  
 }
-.stats{
-    display: flex;
+.list{
+
+ display:flex;
+  flex-direction:column;
+  align-items: center;
+  
+}
+
+.stats {
+  gap: 20px;
+  list-style-type: none;
+  display: flex;
+  padding: 0; 
+}
+
+.avatar {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

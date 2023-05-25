@@ -1,11 +1,11 @@
-import user from './card/user.json';
+ import user from './card/user.json';
 import statistics from './statistics/data.json'
 import friendList from './friendList/friends.json'
 import transactionHistory from './transactionHistory/transactions.json'
-import {Profile} from './card/User'
 import {Statistics} from './statistics/Statistics'
 import {FriendList} from './friendList/FriendList'
 import {TransactionHistory} from './transactionHistory/TransactionHistory'
+ import {Profile} from './card/User.jsx'
 
 
 export const App = () => {
@@ -20,19 +20,16 @@ export const App = () => {
         flexDirection:'column'
       }}
     >
-    <Profile
+     <Profile 
   username={user.username}
-  tag={user.tag}
-  location={user.location}
-  avatar={user.avatar}
-  stats={user.stats}
-/>
-
+     tag={user.tag}
+    location={user.location}
+    avatar={user.avatar}
+    stats={user.stats}
+/> 
 <Statistics title="Upload stats" stats={statistics} />
-
 <FriendList friends={friendList} />
-
-<TransactionHistory items={transactionHistory} />;
+<TransactionHistory items={transactionHistory} />
     </div>
   );
 };
