@@ -21,7 +21,7 @@ const FriendListItem = ({ isOnline, avatar, name }) => {
     </li>
   );
 };
-FriendListItem.PropTypes={
+FriendListItem.propTypes={
   isOnline: PropTypes.bool.isRequired,
   avatar: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired 
@@ -40,7 +40,7 @@ export const FriendList = ({ friends }) => {
     </ul>
   );
 };
-FriendList.PropTypes={
+FriendList.propTypes={
 
   friends: PropTypes.array.isRequired 
 }
